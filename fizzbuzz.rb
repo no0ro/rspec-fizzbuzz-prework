@@ -9,7 +9,7 @@ def fizzbuzz(num)
   elsif both == 0
     puts "FizzBuzz"
   else 
-    puts "Nil"
+    puts num
   end
 end
 
