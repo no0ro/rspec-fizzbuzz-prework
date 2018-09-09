@@ -1,4 +1,4 @@
-def fizzbuzz(num) do
+def fizzbuzz(num)
   if num%3==0
     puts "Fizz"
   elsif num%5==0
