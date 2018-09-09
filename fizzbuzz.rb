@@ -9,3 +9,5 @@ def fizzbuzz(num)
     puts "Nil"
   end
 end
+
+fizzbuzz(3)
