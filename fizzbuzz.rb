@@ -1,9 +1,12 @@
 def fizzbuzz(num)
-  if (num%3 == 0)
+  fizz3 = num%3 
+  buzz5 = num%5 
+  both = fizz3 && buzz5
+  if fizz3 == 0
     puts "Fizz"
-  elseif (num%5 == 0)
+  elseif buzz5 == 0
     puts "Buzz"
-  elseif ((num%3 && num%5) == 0) 
+  elseif both == 0
     puts "FizzBuzz"
   else 
     puts "Nil"
